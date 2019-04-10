@@ -1,0 +1,43 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Renault",
+      "model": "Clio",
+      "engine": {
+        "consumption": 4,
+        "fuel": "petrol",
+        "power": 100
+      },
+      "km": 100000,
+      "price": 7000,
+      "year": 2010
+    },
+    {
+      "id": 2,
+      "brand": "Opel",
+      "model": "Astra",
+      "year": 2016,
+      "price": 20000666,
+      "km": 10000,
+      "engine": {
+        "fuel": "diesel",
+        "power": 80,
+        "consumption": 6
+      }
+    },
+    {
+      "id": 3,
+      "brand": "VW",
+      "model": "PASSAT",
+      "year": 2000,
+      "price": 500000,
+      "km": 122200,
+      "engine": {
+        "fuel": "diesel",
+        "power": 123,
+        "consumption": 5.5
+      }
+    }
+  ]
+}
