@@ -26,12 +26,4 @@ export class CarService {
     console.log('Submited', car);
     return  this.http.post('http://localhost:3000/cars', car);
   }
-
-  deleteCar(carId: number) {
-    return this.http.delete(`http://localhost:3000/cars/${carId}`);
-  }
-
-  editCar(car: Car) {
-    return this.http.put(`http://localhost:3000/cars/${car.id}`, car);
-  }
 }
